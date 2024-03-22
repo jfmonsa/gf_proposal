@@ -1,0 +1,163 @@
+/* reset */
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a{
+    all:none;
+    text-decoration: none;
+}
+body {
+    background-color: #f4dfba;
+    margin: 2rem;
+  }
+
+
+/* variables */
+:root {
+  --font-size-intro: 4rem;
+}
+
+/* text */
+h1 {
+  color: #2b1b13;
+}
+
+p {
+  margin: 4rem 1rem;
+}
+
+/* button */
+.btn {
+  width: max-content;
+  height: 48px;
+  margin: 0 auto 0 auto;
+  padding: 0 16px;
+  border-radius: 24px;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  appearance: none;
+  border: none;
+}
+/* button animations*/
+.btn:hover {
+  /* the width must be reasigned with the same value or other, this is for the animation
+     funtionally */
+  width: max-content;
+  border: 3px solid #5b0058;
+  background-color: #fff;
+}
+
+.btn--callToAction {
+  background-color: #5b0058;
+}
+
+.btn--callToAction:hover {
+  color: #5b0058;
+}
+.btn--ok {
+  background-color: #00a216;
+}
+.btn--ok:hover {
+  color: #00a216;
+  border-color: #00a216;
+}
+.btn--error {
+  background-color: #a80000;
+}
+.btn--error:hover {
+  color: #a80000;
+  border-color: #a80000;
+}
+
+/*Animacion accordign to the btn type*/
+.btn,
+.btn span {
+  transition: all 0.2s;
+}
+.btn--hoverContent {
+  opacity: 0;
+  font-size: 0;
+}
+.btn:hover .btn--hoverContent {
+  opacity: 1;
+  font-size: 1.25rem;
+}
+.btn:hover .btn--normalContent {
+  font-size: 0;
+  opacity: 0;
+}
+
+/* heart  */
+/* .heart{
+    height: 70px;
+    width: 70px;
+    background-color: #f20044;
+    position: relative;
+    transform: rotate(-45deg);
+    margin: 40vh auto;
+}
+.heart::before{
+    content: "";
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: #f20044;
+    top: -50%;
+    border-radius: 50px;
+}
+
+.heart::after{
+    content: "";
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: #f20044;
+    right: -50%;
+    border-radius: 50px;
+}
+*/
+/* proposal */
+
+.header_text {
+  font-family: "Nunito";
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+
+  color: #532907;
+  background: -webkit-linear-gradient(#532907, #37261f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+/* 
+TODO:
+1. Pasar fuentes a rems
+2. hacer una base para todas las paginas
+
+*/
