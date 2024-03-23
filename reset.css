@@ -1,0 +1,23 @@
+/* reset */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a{
+    all:none;
+    text-decoration: none;
+}
+body{
+  min-height: 100dvh;
+  margin: 2rem;
+}
+p{
+    max-width: 70ch;
+}
