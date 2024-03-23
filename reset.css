@@ -16,8 +16,11 @@ a{
 }
 body{
   min-height: 100dvh;
-  margin: 2rem;
+  margin: 2rem 2rem 0 2rem;
 }
 p{
     max-width: 70ch;
 }
+
+/* Share elements between pages */
+/*--footer */
