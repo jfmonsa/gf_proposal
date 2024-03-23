@@ -1,18 +1,12 @@
 /* variables & basic*/
 :root {
-  --font-size-intro: 4rem;
+
 }
 body {
     background-color: #f4dfba;
-    display: flex;
-    justify-content: center;
   }
 
 /* text */
-h1 {
-  color: #2b1b13;
-  margin-bottom: 3rem;
-}
 p {
   margin: 0 auto 2rem auto;
 }
@@ -97,7 +91,8 @@ p {
 
   color: #532907;
   background: -webkit-linear-gradient(#532907, #37261f);
-  -webkit-background-clip: text;
+  background-clip: text;
+  text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
 }
 .buttons {

@@ -2,7 +2,6 @@ body{
     background-color: #F9D1D1;
 }
 h1 {
-    color: #2b1b13;
     margin-bottom: 4rem;
   }
 img{
@@ -18,12 +17,5 @@ img{
 p{
     margin-top: 4rem;
     text-align: center;
-}
-footer{
-    width: 100%;
-    overflow-y: hidden;
-    /* overflow-x: hidden; */
-    /* background-color: #da7543; */
-    color: #fff;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }

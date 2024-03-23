@@ -1,4 +1,10 @@
 /* reset */
+html{
+  height: 100%;
+}
+body{
+  min-height: 100%;
+}
 *,
 *::after,
 *::before {
@@ -15,12 +21,34 @@ a{
     text-decoration: none;
 }
 body{
-  min-height: 100dvh;
-  margin: 2rem 2rem 0 2rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+main{
+  padding: 2rem;
 }
 p{
     max-width: 70ch;
 }
 
 /* Share elements between pages */
+/*--h1 */
+h1 {
+  color: #2b1b13;
+  margin-bottom: 3rem;
+}
 /*--footer */
+footer{
+  width: 100%;
+  height: 100px;
+  padding: 0.5rem 2rem 0.5rem;
+  margin-top: auto;
+  background-color: #8e5b49;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
