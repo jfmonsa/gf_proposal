@@ -1,15 +1,11 @@
-/* variables & basic*/
-:root {
-
-}
+/* basic */
 body {
     background-color: #f4dfba;
   }
-
-/* text */
 p {
   margin: 0 auto 2rem auto;
 }
+
 
 /* button */
 .btn {
