@@ -30,6 +30,8 @@ main {
 }
 p {
   max-width: 70ch;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* Share elements between pages */
