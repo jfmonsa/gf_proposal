@@ -1,8 +1,8 @@
 /* reset */
-html{
+html {
   height: 100%;
 }
-body{
+body {
   min-height: 100%;
 }
 *,
@@ -16,20 +16,20 @@ img {
   display: block;
   max-width: 100%;
 }
-a{
-    all:none;
-    text-decoration: none;
+a {
+  all: none;
+  text-decoration: none;
 }
-body{
+body {
   margin: 0;
   display: flex;
   flex-direction: column;
 }
-main{
+main {
   padding: 2rem;
 }
-p{
-    max-width: 70ch;
+p {
+  max-width: 70ch;
 }
 
 /* Share elements between pages */
