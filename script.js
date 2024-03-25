@@ -1,8 +1,5 @@
-const proposal = document.getElementById("container");
-//const triggerBtn = document.getElementById("trigger");
+const proposal = document.getElementById("proposal");
 
-
-function show(){
-    document.getElementById("container").style.display = 'block';
-    console.log("trin");
+function showProposal(){
+    document.getElementById("proposal").style.display = 'block';
 }

@@ -52,3 +52,6 @@ footer{
   justify-content: center;
   align-items: center;
 }
+address{
+  font-style: normal;
+}

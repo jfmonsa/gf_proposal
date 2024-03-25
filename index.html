@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tefa</title>
 
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="proposal_main.css" />
   </head>
   <body>
@@ -23,25 +23,25 @@
           continuar, yo prometo hacer lo propio contigo. Te amo.
         </p>
 
-        <button class="btn btn--callToAction" onclick="show()">
-          <span class="btn--normalContent">Tocame</span>
-          <span class="btn--hoverContent">Tocame</span>
+        <button class="btn btn--callToAction" onclick="showProposal()">
+          <span class="btn__normalContent">Tocame</span>
+          <span class="btn__hoverContent">Tocame</span>
         </button>
       </section>
 
-
-      <section class="container" id="container" style="display: none">
-        <h2 class="header_text">¿Quieres ser mi novia?</h2>
+      <section class="proposal" id="proposal" style="display: none">
+        <h2 class="proposal__header">¿Quieres ser mi novia?</h2>
 
         <img
           alt="Cute animated illustration"
           src="./assets/main.webp"
+          class="proposal__img"
         />
 
-        <div class="buttons">
+        <div class="proposal__buttonContainer">
           <a class="btn btn--error" href="no/no.html">
-            <span class="btn--normalContent">No</span>
-            <span class="btn--hoverContent">No</span>
+            <span class="btn__normalContent">No</span>
+            <span class="btn__hoverContent">No</span>
           </a>
 
           <a class="btn btn--ok" href="yes/yes.html">
@@ -60,7 +60,7 @@ Todo:
 * android browsers color
 * favicon
 * LazyLoading?
-* variables en css
+* variables en css, per component (DRY )
 * apply BEM to reduce the complexity of some css selectors
-* Improving semantics
+* modularize css
  -->
